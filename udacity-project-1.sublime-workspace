@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\n	<!-- IE Edge Meta Tag -->\n	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\n	<!-- Viewport -->\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n	<!-- Minified CSS -->\n	<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css\">\n\n	<!-- Optional IE8 Support -->\n	<!--[if lt IE 9]>\n	  <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n	  <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n	<![endif]-->\n	<!-- custom styles -->\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n</head>\n<body>\n	<header>\n		<div class=\"container\">\n			<div class=\"row\">\n				<div class=\"col-sm-2\">Words.</div>\n				<div class=\"col-sm-2\">Words.</div>\n				<div class=\"col-sm-2\">Words.</div>\n				<div class=\"col-sm-6\">\n					I'm a front end designer with a background in the written word. So my approach is a little different. The written word is not dead. Far from it -- we rely on reading text today more than we ever have. Sense, context, clarity are crucial. Information can be very complex. It is our job to make it less so.\n				</div>\n			</div>\n		</div>\n	</header>\n\n\n\n\n\n\n<!-- jQuery -->\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>\n<!-- Minified JavaScript -->\n<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js\"></script>\n<script type=\"text/javascript\" src=\"js/global.js\"></script>\n</body>\n</html>\n\n",
+			"file": "index.html",
+			"file_size": 1524,
+			"file_write_time": 1446161435000000,
+			"settings":
+			{
+				"buffer_size": 1529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": " /*style sheet*/\n /*making a change */\n ",
+			"file": "css/style.css",
+			"file_size": 38,
+			"file_write_time": 1446067933000000,
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bcupham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/index.html",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/css/style.css",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/test1.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/filetodelete1.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/filetodelete2.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/.git/COMMIT_EDITMSG",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/style.css",
+		"/css",
+		"/Users/bcupham/Downloads/Website Email for Previous Performers .html",
+		"/Users/bcupham/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bcupham/Documents/explore_california/index.html",
+		"/Users/bcupham/Documents/explore_california/tours/tour_detail_bigsur.html",
+		"/Users/bcupham/Documents/explore_california/tours/tour_detail_backpack.html",
+		"/Users/bcupham/Documents/explore_california/resources/faq.html",
+		"/Users/bcupham/Documents/explore_california/tours/tour_detail_backpack_cal.html",
+		"/Users/bcupham/Documents/explore_california/tours.html",
+		"/Users/bcupham/Documents/explore_california/support.html",
+		"/Users/bcupham/Documents/explore_california/resources.html",
+		"/Users/bcupham/Documents/explore_california/mission.html",
+		"/Users/bcupham/Documents/explore_california/.git/COMMIT_EDITMSG",
+		"/Users/bcupham/Documents/explore_california/contact.html",
+		"/Users/bcupham/Documents/explore_california/explorers.html",
+		"/Users/bcupham/Documents/first_git_project/This is a file to delete2.txt",
+		"/Users/bcupham/.bash_profile",
+		"/Users/bcupham/Documents/first_git_project/.git/COMMIT_EDITMSG",
+		"/Users/bcupham/second_file.txt",
+		"/Users/bcupham/third_file.txt",
+		"/Users/bcupham/first_file.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"backpack_cal.html",
+			"backpack.html",
+			"4315"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"backpack_cal.html",
+			"4310"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								1177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 178.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

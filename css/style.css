@@ -1,2 +1,25 @@
-/* style sheet */
-/* making a change */
+
+
+body {
+	background-color: lightblue;
+	color: #fff;
+}
+
+header {
+	margin: 15px 0 25px;
+}
+
+.logo {
+	position: relative;
+	transform:translateY(15%);
+}
+
+main {
+	margin-bottom: 50px;
+}
+
+@media (max-width: 480px) {
+	.logo {
+		display: none;
+	}
+}
