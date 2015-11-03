@@ -6,7 +6,8 @@ body {
 }
 
 header {
-	margin: 15px 0 25px;
+	margin-top: 15px;
+	padding-bottom: 25px;
 }
 
 .logo {
@@ -18,8 +19,29 @@ main {
 	margin-bottom: 50px;
 }
 
+.modal-title {
+	margin: 25px;
+}
+
+button.close {
+	margin: 5px;
+}
+
 @media (max-width: 480px) {
+	header {
+		padding-bottom: 15px;
+	}
+	.my-name {
+		text-align: left;
+	}
+	.my-name h3 {
+		font-size: 14px;
+		margin-top: 0;
+	}
+	.my-name h1 {
+		margin-bottom: 0;
+	}
 	.logo {
-		display: none;
+		margin-bottom: 10px;
 	}
 }

@@ -21,12 +21,12 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header class="container">
+	<header class="container clearfix">
 		<div class="row">
-			<div class="col-xs-2 vertical-align">
+			<div class="col-xs-4 vertical-align">
 				<img src="images/cat-hat-100x100.jpg" alt="Cat in the Hat's hat" class="img-rounded logo">
 			</div>
-			<div class="col-xs-10 text-right text-uppercase my-name vertical-align">
+			<div class="col-xs-8 text-right text-uppercase my-name vertical-align">
 				<h1>Ben Upham</h1>
 				<h3>A Real Front-End Guy</h3>
 			</div>
@@ -40,7 +40,13 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12">
-				<h1>Featured Work</h1>
+				<h2>One Fish, Two Fish...</h2>
+				<p>Red fish, blue fish. Who doesn't love Dr. Seuss?</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Featured Work</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -49,9 +55,9 @@
 					<a href="#" class="">
 						<img src="images/one-fish-600x400.jpg" alt="One Fish" >
 					</a>
-					<div class="caption text-center">
-						<a class="btn btn-default">One Fish</a>
-					</div>
+					<figcaption class="caption text-center">
+						<a class="btn btn-default" data-toggle="modal" data-target="#fishModal" data-fish="One Fish" data-color="info">One Fish</a>
+					</figcaption>
 				</figure>
 			</div>
 			<div class="col-xs-6 col-sm-3">
@@ -59,9 +65,9 @@
 					<a href="#" class="">
 						<img src="images/two-fish-600x400.jpg" alt="Two Fish" >
 					</a>
-					<div class="caption text-center">
-						<a class="btn btn-default btn-success">Two Fish</a>
-					</div>
+					<figcaption class="caption text-center">
+						<a class="btn btn-default btn-success" data-toggle="modal" data-target="#fishModal" data-fish="Two Fish" data-color="success">Two Fish</a>
+					</figcaption>
 				</figure>
 			</div>
 			<div class="col-xs-6 col-sm-3">
@@ -69,9 +75,9 @@
 					<a href="#" class="">
 						<img src="images/red-fish-600x400.jpg" alt="Red Fish" >
 					</a>
-					<div class="caption text-center">
-						<a class="btn btn-default btn-danger">Red Fish</a>
-					</div>
+					<figcaption class="caption text-center">
+						<a class="btn btn-default btn-danger" data-toggle="modal" data-target="#fishModal" data-fish="Red Fish" data-color="danger">Red Fish</a>
+					</figcaption>
 				</figure>
 			</div>
 			<div class="col-xs-6 col-sm-3 col-lg-pull-9">
@@ -79,10 +85,18 @@
 					<a href="#" class="">
 						<img src="images/blue-fish-600x400.jpg" alt="Blue Fish" >
 					</a>
-					<div class="caption text-center">
-						<a class="btn btn-default btn-primary">Blue Fish</a>
-					</div>
+					<figcaption class="caption text-center">
+						<a class="btn btn-default btn-primary" data-toggle="modal" data-target="#fishModal" data-fish="Blue Fish" data-color="primary">Blue Fish</a>
+					</figcaption>
 				</figure>
+			</div>
+			<div class="modal" id="fishModal" role="dialog" aria-labelledby="fishmodal" tabindex="-1">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h2 id="fish-modal-title" class="modal-title">Which Fish?</h2>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
